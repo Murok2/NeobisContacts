@@ -1,0 +1,35 @@
+
+.imgBlock{
+    width: 600px;
+    display: flex; 
+    margin-bottom: 30px;
+}
+
+.photo{
+    flex-basis: 50%;
+    width: 40%;
+    margin-right: 20px;
+}
+.favIcon{
+    flex-basis: 10%; 
+    width: 100%;
+}
+
+.contactForms form{
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.contactInput{
+    padding: 5px 10px;
+    width: 90%;
+}
+
+.saveContact{
+    background: #212121;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 18px; 
+}

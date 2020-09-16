@@ -1,0 +1,77 @@
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+.contactItem{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px rgba(33, 33, 33, 0.25);
+    border-radius: 4px;
+    font-family: Ubuntu;
+}
+
+.textInfo{
+    padding: 10px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.photo img{
+    width: 100%;
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.favorite{
+    width: 30px;
+}
+.favorite img{
+    width: 100%;
+}
+
+.btnBlock{
+    padding: 20px 10px 10px 10px;
+    text-align: right;
+}
+
+.showUser{
+    background: #212121;
+    border-radius: 2px;
+    color: #fff;
+    padding: 3px 30px;
+}
+
+.actionBars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search{
+    flex-basis: 40%;
+}
+.searchInput{
+    padding: 10px;
+    width: 100%;
+}
+
+.actionButtons{
+    display: flex;  
+    flex-basis: 12%;
+    align-items: center;
+    justify-content: space-around;
+}
+.favoritesFilter{
+    width: 35px;
+}
+.favoritesFilter img{
+    width: 100%;
+}
+.sortBtn{
+    padding: 10px;
+}
